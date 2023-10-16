@@ -4,6 +4,10 @@ const OrderSchema = new mongoose.Schema(
   {
     userId: { type: "string", required: true },
     transactionId: { type: "string", required: true },
+    addressId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Address",
+    },
     productId: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Product",

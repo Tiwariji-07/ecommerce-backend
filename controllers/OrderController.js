@@ -7,10 +7,16 @@ module.exports = {
 
     try {
       const userOrders = await Order.find({ userId })
-        .populate({
-          path: "productId",
-          select: "-description -product_location",
-        })
+        .populate([
+          {
+            path: "productId",
+            select: "-description -product_location",
+          },
+          {
+            path: "addressId",
+            select: "-__v",
+          },
+        ])
         .exec();
 
       res.status(200).json(userOrders);

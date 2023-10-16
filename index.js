@@ -10,7 +10,7 @@ const cartRouter = require("./routes/cart");
 const orderRouter = require("./routes/order");
 const favoriteRouter = require("./routes/favorite");
 const paymentRouter = require("./routes/payment");
-
+const addressRouter = require("./routes/address");
 dotenv.config();
 mongoose
   .connect(process.env.MONGO_URL)
@@ -29,7 +29,7 @@ app.use("/api/cart", cartRouter);
 app.use("/api/order", orderRouter);
 app.use("/api/favorite", favoriteRouter);
 app.use("/api/payment", paymentRouter);
-
+app.use("/api/address", addressRouter);
 app.listen(process.env.PORT || port, () =>
   console.log(`Example app listening on port ${process.env.PORT}!`)
 );
