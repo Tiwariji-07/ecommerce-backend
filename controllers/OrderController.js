@@ -17,6 +17,7 @@ module.exports = {
             select: "-__v",
           },
         ])
+        .sort({ createdAt: -1 })
         .exec();
 
       res.status(200).json(userOrders);
