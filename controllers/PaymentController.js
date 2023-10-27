@@ -8,7 +8,7 @@ module.exports = {
     try {
       const paymentIntent = await stripe.paymentIntents.create({
         amount: req.body.amount,
-        currency: "inr",
+        currency: "usd",
 
         automatic_payment_methods: {
           enabled: true,
