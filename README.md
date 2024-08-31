@@ -19,6 +19,21 @@ Welcome to the backend of the e-commerce application built using Node.js, Expres
 
 ### Installation
 
+1. ** Clone the repository:**
+   ```bash
+   git clone https://github.com/Tiwariji-07/ecommerce-backend.git
+2. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Tiwariji-07/ecommerce-backend.git
+1. ** Clone the repository:**
+   ```bash
+   git clone https://github.com/Tiwariji-07/ecommerce-backend.git
+1. ** Clone the repository:**
+   ```bash
+   git clone https://github.com/Tiwariji-07/ecommerce-backend.git
+1. ** Clone the repository:**
+   ```bash
+   git clone https://github.com/Tiwariji-07/ecommerce-backend.git
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Tiwariji-07/ecommerce-backend.git
