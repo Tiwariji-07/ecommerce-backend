@@ -19,21 +19,23 @@ Welcome to the backend of the e-commerce application built using Node.js, Expres
 
 ### Installation
 
-1. ** Clone the repository:**
-   ```bash
-   git clone https://github.com/Tiwariji-07/ecommerce-backend.git
-2. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Tiwariji-07/ecommerce-backend.git
-1. ** Clone the repository:**
-   ```bash
-   git clone https://github.com/Tiwariji-07/ecommerce-backend.git
-1. ** Clone the repository:**
-   ```bash
-   git clone https://github.com/Tiwariji-07/ecommerce-backend.git
-1. ** Clone the repository:**
-   ```bash
-   git clone https://github.com/Tiwariji-07/ecommerce-backend.git
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Tiwariji-07/ecommerce-backend.git
+2. **Navigate to the project directory::**
+   ```bash
+   cd ecommerce-backend
+3. **Install dependencies:**
+   ```bash
+   npm install
+4. **Set up environment variables:**
+   Create a `.env` file in the root directory and add your MongoDB connection string and the port number:
+   ```bash
+   MONGODB_URL=your_mongodb_connection_string
+   PORT=3000
+
+5. **Start the server:**
+   ```bash
+   nodemon start
+6. **Access the API:**
+   Once the server is running, you can access the API at `http://localhost:3000`.
