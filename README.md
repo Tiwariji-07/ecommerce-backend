@@ -52,7 +52,7 @@ ecommerce-backend/
 ├── .env            # Environment variables (not included in the repo)
 ├── package.json    # Project metadata and dependencies
 └── README.md       # Project documentation
-
+```
 
 ## API Endpoints
 
